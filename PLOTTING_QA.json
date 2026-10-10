@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "matplotlib": "3.10.0",
+  "source_tables_not_distributed": true,
+  "all_eight_reviewed_PNG_byte_equality": true,
+  "checks": [
+    {
+      "file": "Figure1_source_support.png",
+      "reviewed_sha256": "c118e241c898973fedc08aac0f99fb67e38692a73f650a79b7d97356d323cc59",
+      "portable_sha256": "c118e241c898973fedc08aac0f99fb67e38692a73f650a79b7d97356d323cc59"
+    },
+    {
+      "file": "Figure2_identity_and_contrasts.png",
+      "reviewed_sha256": "a4b4a5e34c696c42b4d7147dd74d10df8897eda6b71854b9f976b2e203374421",
+      "portable_sha256": "a4b4a5e34c696c42b4d7147dd74d10df8897eda6b71854b9f976b2e203374421"
+    },
+    {
+      "file": "Figure3_SMZ_phase_evidence.png",
+      "reviewed_sha256": "0e28d41bc6c5e5b70d39215b758e971471504b10367f0227591bbb0cf613843c",
+      "portable_sha256": "0e28d41bc6c5e5b70d39215b758e971471504b10367f0227591bbb0cf613843c"
+    },
+    {
+      "file": "Figure4_Tolbutamide_assay_scope.png",
+      "reviewed_sha256": "1a8323e91425d27a82087ecb8d4d36f9e851bbe1424915d23657c72e75e5c76c",
+      "portable_sha256": "1a8323e91425d27a82087ecb8d4d36f9e851bbe1424915d23657c72e75e5c76c"
+    },
+    {
+      "file": "Figure5_decision_targets.png",
+      "reviewed_sha256": "cdf2bde4f30b127f50f34363b9b622e7eaa46983344a1c403229cb4ac93519ff",
+      "portable_sha256": "cdf2bde4f30b127f50f34363b9b622e7eaa46983344a1c403229cb4ac93519ff"
+    },
+    {
+      "file": "Figure6_comparison_support.png",
+      "reviewed_sha256": "1a766f309998134573049ee748e350e4103048c8d19c64d568f01303fab31204",
+      "portable_sha256": "1a766f309998134573049ee748e350e4103048c8d19c64d568f01303fab31204"
+    },
+    {
+      "file": "SupplementaryFigure1_process_and_phase.png",
+      "reviewed_sha256": "523c5d1a933a2adb7924e3299571254217b242af38902f8b569263fc7f05b4f2",
+      "portable_sha256": "523c5d1a933a2adb7924e3299571254217b242af38902f8b569263fc7f05b4f2"
+    },
+    {
+      "file": "SupplementaryFigure2_piracetam_objectives.png",
+      "reviewed_sha256": "da9fb9a740925944bcb56ab059ac2b171c3636a94e9bde62597a561e7cfcc3cb",
+      "portable_sha256": "da9fb9a740925944bcb56ab059ac2b171c3636a94e9bde62597a561e7cfcc3cb"
+    }
+  ]
+}

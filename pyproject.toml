@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solubility-comparison-evidence"
+version = "1.0.0"
+description = "Task-specific comparison, evidence gating and evaluation of solubility records"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Minhao Liu", email = "minhliu@ttu.edu"}]
+dependencies = ["numpy==2.4.3", "pandas==2.3.3", "jsonschema==4.26.0"]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.4"]
+chemistry = ["rdkit==2025.9.3"]
+
+[project.scripts]
+solubility-compare = "solubility_comparisons.cli:main"
+
+[project.urls]
+Repository = "https://github.com/chineseschrodingercat/solubility-comparison-evidence"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+solubility_comparisons = ["schemas/*.json", "py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]

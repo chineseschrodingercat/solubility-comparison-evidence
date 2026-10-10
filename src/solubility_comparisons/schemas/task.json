@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "task_id", "resource_id", "question_family", "stage", "exposure_status", "entity_id", "source_group_id", "context", "features"],
+  "properties": {
+    "schema_version": {"type": ["integer", "string"]},
+    "task_id": {"type": "string", "minLength": 1},
+    "resource_id": {"type": "string", "minLength": 1},
+    "question_family": {"type": "string", "minLength": 1},
+    "stage": {"enum": ["DEV", "EXTERNAL_HOLDOUT"]},
+    "exposure_status": {"enum": ["developed", "previously_exposed", "external_holdout"]},
+    "entity_id": {"type": "string"},
+    "source_group_id": {"type": "string"},
+    "context": {
+      "type": "object",
+      "required": ["candidate_ids"],
+      "properties": {"candidate_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true}}
+    },
+    "features": {"type": "object"},
+    "exposure_history": {"type": "object"}
+  }
+}

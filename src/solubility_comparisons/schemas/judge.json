@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["task_id", "answer_status", "accepted_answers", "uncertainty_status", "uncertainty_resolved_scoreable"],
+  "properties": {
+    "task_id": {"type": "string", "minLength": 1},
+    "answer_status": {"enum": ["resolved_observation", "resolved_point_reference", "unresolved", "resolved_primary_reported_point_order"]},
+    "accepted_answers": {"type": ["array", "null"], "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "uncertainty_status": {"type": "string"},
+    "uncertainty_resolved_scoreable": {"type": "boolean"},
+    "reported_u": {},
+    "independence_scope": {"type": "string"},
+    "evaluation_role": {"enum": ["reference", "provenance_check"], "description": "Primary-table provenance checks are resolved but not predictive-performance references by default."}
+  }
+}

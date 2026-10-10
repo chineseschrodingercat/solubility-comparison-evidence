@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and the source methods/datasets used in your analysis."
+title: "Chemical evidence defines the scope of solubility comparisons"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Minhao
+    affiliation: "Department of Chemistry and Biochemistry, Texas Tech University, Lubbock, Texas, USA"
+    email: minhliu@ttu.edu
+version: 1.0.0
+date-released: 2026-10-10
+license: MIT
+repository-code: "https://github.com/chineseschrodingercat/solubility-comparison-evidence"
+keywords:
+  - solubility
+  - chemical evidence
+  - source support
+  - comparison tasks
+  - selective evaluation

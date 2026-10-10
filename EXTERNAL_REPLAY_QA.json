@@ -1,0 +1,83 @@
+{
+  "package_version": "1.0.0",
+  "python": "3.13.5",
+  "numpy": "2.4.3",
+  "pandas": "2.3.3",
+  "status": "PASS",
+  "external_inputs_not_copied": true,
+  "scientific_output_tables_not_written": true,
+  "upstream_input_hashes": {
+    "impact_upgrade_20261009\\evaluation\\dev_inputs.jsonl": "8de32adb06df8f5e7f7eb169e364759aa8883613a7bee2cf7cabaa9b809a0360",
+    "impact_upgrade_20261009\\evaluation\\dev_judge.jsonl": "28249d6a5a6bddacdec162df1811bac15eae3f0e7cebf8f70106690e225528ce",
+    "manuscript_completion_20261009\\method\\development_outputs_v1_2\\DEV_predictor_safe_views.jsonl": "e068238fb5be75439d6103d632472155553c011fb74e3ec5c6885551a0d346b9",
+    "manuscript_completion_20261009\\method\\development_outputs_v1_2\\TOL20_predictor_safe_views.jsonl": "92350f3c1335abeabf57281c52421b0ec3ee8f2319da0d402184178c3823c318",
+    "baselines\\SC3_replay\\data\\interim\\04_fits.csv": "c2b90977be2843e1d99d85d8c68bbd8f38a68f201621ae682a51ac97826d98fe",
+    "continuation\\global_identity\\actual_contributing_source_metadata.csv": "b8e8482ba27e25b724d85a48ea75f7d45d166cc9c4372b1368d28d9e2dd04c0c"
+  },
+  "frozen_code_hashes": {
+    "impact_upgrade_20261009\\evaluation\\predict_baselines.py": "01111509820d6db6f63b2e885f1830aa0a4a559106d42d567f8ad06a2b511e9b",
+    "impact_upgrade_20261009\\evaluation\\evaluate.py": "c0bd378d7815fcda09185a3f562af33d65358bf42084b95d571104c835b09383",
+    "manuscript_completion_20261009\\method\\build_answer_sets.py": "ad68aadd5c02d034fe06cf578bc513091afee91e5040108976655a7b5ad5c0d9",
+    "manuscript_completion_20261009\\method\\replay_safe_views.py": "76b7b79687f5bf9140eeec33b8b8d4a08e65185d97928c18aa4d01fb021f259c"
+  },
+  "frozen_inputs_and_code_unchanged": true,
+  "checks": [
+    {
+      "operation": "frozen_baseline_predictions",
+      "status": "PASS",
+      "files_compared": 6,
+      "full_payload_equality": true
+    },
+    {
+      "operation": "frozen_baseline_evaluation",
+      "status": "PASS",
+      "tables_compared": 14,
+      "exact_csv_value_equality": true
+    },
+    {
+      "operation": "finite_safe_view_predictions",
+      "status": "PASS",
+      "files_compared": 30,
+      "full_payload_equality": true
+    },
+    {
+      "operation": "released_source_support",
+      "status": "PASS",
+      "tables_compared": 2,
+      "summary_equality": true,
+      "exact_csv_value_equality": true
+    },
+    {
+      "operation": "phase_curve_variants",
+      "status": "PASS",
+      "exact_value_equality": true,
+      "referee_not_read_by_curve_kernel": true
+    },
+    {
+      "operation": "mixture_native_windows_and_pooling",
+      "status": "PASS",
+      "exact_csv_value_equality": true
+    },
+    {
+      "operation": "process_screen_policies",
+      "status": "PASS",
+      "exact_csv_value_equality": true,
+      "primary_and_complete_only": true
+    },
+    {
+      "operation": "external_native_panels",
+      "status": "PASS",
+      "exact_csv_value_equality": true
+    },
+    {
+      "operation": "heldout_source_dispersion",
+      "status": "PASS",
+      "exact_csv_value_equality": true
+    },
+    {
+      "operation": "released_benchmark_temperature_support",
+      "status": "PASS",
+      "exact_csv_value_equality": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "wheel_built": true,
+  "target_installed": true,
+  "installed_module_location_verified": true,
+  "version_cli_pass": true,
+  "help_cli_pass": true,
+  "wheel_contains_no_measurement_or_document_files": true,
+  "dependencies_reused_from_verified_environment": true,
+  "dependency_installation_scope": "offline --no-deps --target installation; not a clean network dependency installation",
+  "external_paths_excluded": true
+}

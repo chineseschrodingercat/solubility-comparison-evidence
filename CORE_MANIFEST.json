@@ -1,0 +1,225 @@
+{
+  "scope": "Core package, excluding manifest self hash and separately added plotting builders",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 169,
+      "sha256": "ab6ce303c8e8338d4bddd50b9a7f349424e2cb63589273fe70246ba55c0bb4d5"
+    },
+    {
+      "path": "AUTHORS.md",
+      "bytes": 352,
+      "sha256": "d4075a07a5eb7fac1cc659212b62a65fab5ac27beb7fec3a31a2bba09c909503"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 640,
+      "sha256": "f549b284a8182c51da7ea471facd89d28f154cd1aca79ed31200db04d10d9a3c"
+    },
+    {
+      "path": "CORE_WHITELIST.json",
+      "bytes": 2029,
+      "sha256": "3725cd2d1987f3e5bd974a4d77357d306e3dd38fbc18fd97910ef5743d92ec91"
+    },
+    {
+      "path": "DATA_ACCESS.md",
+      "bytes": 5373,
+      "sha256": "f0cd6f16f3207f1dc08daa2f60df96ff7b07ec1945a2e5432628e69587113bfb"
+    },
+    {
+      "path": "EXTERNAL_REPLAY_QA.json",
+      "bytes": 3290,
+      "sha256": "f9dec2ca5d0216bf368890e243b492e49fe9db3cde6909f93893db2fc19b0329"
+    },
+    {
+      "path": "FORMAT_QA.json",
+      "bytes": 218,
+      "sha256": "620cfa0dfafff740e0c06023641252a31d034a5a3497edf9a78969adabb6b4cb"
+    },
+    {
+      "path": "INSTALLATION_QA.json",
+      "bytes": 457,
+      "sha256": "f6330352ce02386177fe19a7dc94811af7cf30157e304432a9e3f45f148a3749"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "79b313bdf731dea58e48db1243b63913b632a9277f6f32a2f55f8801efeace9b"
+    },
+    {
+      "path": "MIGRATION.md",
+      "bytes": 4147,
+      "sha256": "484476ac32e3c07d2558c42bdedf375f4c01358a16d27e41e1efe9fde8eb0d23"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 3797,
+      "sha256": "4e523a4c4bd20e4f3b724df275a222336524244d37ed473991776fa578d334f6"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 975,
+      "sha256": "67d2bdb0ad2781d50fcf69938573a0a6378b676770091a03bcd68fe199486fb2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7969,
+      "sha256": "84e7c412682286be3e01f217e14464a2a705b1dd188324dee9d710aca61a9448"
+    },
+    {
+      "path": "RELEASE_QA.json",
+      "bytes": 2829,
+      "sha256": "363cf78abf60ad9b5a3edfabc4fe254dea8db577654d0910cb8848c596831d67"
+    },
+    {
+      "path": "src/solubility_comparisons/__init__.py",
+      "bytes": 103,
+      "sha256": "98de130e73023f42d8719f527f9551d9e209279e6fe6046d7c5ab799e270c369"
+    },
+    {
+      "path": "src/solubility_comparisons/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/solubility_comparisons/answer_sets.py",
+      "bytes": 11256,
+      "sha256": "cbca32f129b5bf530b707fa98934923856262ed85fd54b9a637f9f92f884da39"
+    },
+    {
+      "path": "src/solubility_comparisons/baselines.py",
+      "bytes": 7874,
+      "sha256": "bf5b1aa404accf4bb200af1400e9428281c27191a3dd8bec4c6c43cc6dedbeff"
+    },
+    {
+      "path": "src/solubility_comparisons/benchmark_support.py",
+      "bytes": 6025,
+      "sha256": "f7f1bf29f6705dc84c61411600cf1dae53f24f54a220a6e0af47b4833b94b15b"
+    },
+    {
+      "path": "src/solubility_comparisons/cli.py",
+      "bytes": 14795,
+      "sha256": "f7712c3be82384cc9bb874c36c514a3580f8952c1d0014f18585e6fc08541c3d"
+    },
+    {
+      "path": "src/solubility_comparisons/config.py",
+      "bytes": 1020,
+      "sha256": "eba9376441e4bf5fcfe4c413baec81a1d45893d465e0e70760f3374d6d86277f"
+    },
+    {
+      "path": "src/solubility_comparisons/contracts.py",
+      "bytes": 3767,
+      "sha256": "bf19bc64c9ccf92146753bfd59344a97a2aa319cc6d7a1c4cc89a63da4d13db6"
+    },
+    {
+      "path": "src/solubility_comparisons/contrast_uncertainty.py",
+      "bytes": 3542,
+      "sha256": "f24059ecb70d5e4b3a53103c9583e84721a332c183a9964e6f8037c3ab5c1fb4"
+    },
+    {
+      "path": "src/solubility_comparisons/curves.py",
+      "bytes": 4099,
+      "sha256": "e06a3b26a92e5a5e1431af42d9b9c02614aa26def9d33caa49ed54b6c0528426"
+    },
+    {
+      "path": "src/solubility_comparisons/evaluation.py",
+      "bytes": 14735,
+      "sha256": "409dae4a7e1642e3edd7aadd0c016cecbaa4f75451726014e47172a29a59969a"
+    },
+    {
+      "path": "src/solubility_comparisons/identity.py",
+      "bytes": 2619,
+      "sha256": "fcc5c82c9ce9a273d3cf6a4af9bb896b4789ef89c0898efe60bd301ac844bdc4"
+    },
+    {
+      "path": "src/solubility_comparisons/io.py",
+      "bytes": 1951,
+      "sha256": "aab9cd910113f160fe0fba70016536d0bb116fd5a76d20be17da651943169868"
+    },
+    {
+      "path": "src/solubility_comparisons/mixtures.py",
+      "bytes": 5709,
+      "sha256": "6a048a776562d9aefb4a0150f1bb8f5f00c14abbb57a34f03b7b52bf78a958c6"
+    },
+    {
+      "path": "src/solubility_comparisons/panels.py",
+      "bytes": 4866,
+      "sha256": "3443d08e7867433bf109cea2b7737a74a611b0c38d1c2c1d39203c0fb85ba32b"
+    },
+    {
+      "path": "src/solubility_comparisons/phase_proxy.py",
+      "bytes": 5362,
+      "sha256": "b74fa9e3ed1d359d5e25028583068b05d6d5ba58de3e722d6132bdaf07dbfa98"
+    },
+    {
+      "path": "src/solubility_comparisons/process_endpoints.py",
+      "bytes": 4785,
+      "sha256": "89d8fa67afdc5db03949c831b0f0c816739bb1abd356039dd4bd27b7609b398a"
+    },
+    {
+      "path": "src/solubility_comparisons/process_screen.py",
+      "bytes": 5216,
+      "sha256": "be0e37355f7e95f877fac04ecba3b8f8ba67ae5b006814620078f524a7834781"
+    },
+    {
+      "path": "src/solubility_comparisons/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/solubility_comparisons/quantities.py",
+      "bytes": 2084,
+      "sha256": "598b3c2492727c5e0431bf92d70ab70d4bdd4d24641cd7f291db23ff0e883d7c"
+    },
+    {
+      "path": "src/solubility_comparisons/schemas/judge.json",
+      "bytes": 893,
+      "sha256": "32f536b708804298698bbd2c91ca54ec715aa1f8de29575e12587c51ec6b5409"
+    },
+    {
+      "path": "src/solubility_comparisons/schemas/task.json",
+      "bytes": 997,
+      "sha256": "4500db2b06273211ddf285ecd837ff4df721d03390a853ca23d60f071262679e"
+    },
+    {
+      "path": "src/solubility_comparisons/source_support.py",
+      "bytes": 8316,
+      "sha256": "55921079696a0db4a5c24d2c2bd0c599a3aacb3d23e47c37bb0d7935b92813d3"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 1159,
+      "sha256": "6473260b6ca9bdebe701992d0e77aa17b0766d82c84072fec27b5ee68ed4d26d"
+    },
+    {
+      "path": "tests/test_cli_provenance.py",
+      "bytes": 1494,
+      "sha256": "e3a47312f15ead97f25fe0f3dd837cb2784c334449ffef50d74250bea9d3ccec"
+    },
+    {
+      "path": "tests/test_contracts_and_policies.py",
+      "bytes": 3242,
+      "sha256": "00330e5a0db3d11d7563533b591d694fc2fb722eeb8322a182983fa0177aa821"
+    },
+    {
+      "path": "tests/test_evaluation_and_process.py",
+      "bytes": 3662,
+      "sha256": "955b59e172fd0390e58ba08b9e32ef3a4f9dc0ccbf1bcf24887fe413a3b19d5d"
+    },
+    {
+      "path": "tests/test_finite_and_curve_support.py",
+      "bytes": 3340,
+      "sha256": "1f2f8ab108940af747031b0aacfffae47acd627eaaffabca1dbd655a015aba68"
+    },
+    {
+      "path": "tests/test_followup_contracts.py",
+      "bytes": 1402,
+      "sha256": "df298d71eab1429c6c9409c5c49a4ec2bcacd5aad21e4aa30396a89e579a1101"
+    },
+    {
+      "path": "tools/verify_external_replay.py",
+      "bytes": 13138,
+      "sha256": "f429ae3fc00614e3be899c82e7e137ee383292ffd36060fa7cad8e7be0d1f129"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "release_version": "1.0.0",
+  "status": "PASS",
+  "scope": "Core package; plotting builders added and verified separately by repository maintainer",
+  "source_modules": 20,
+  "core_python_files": 27,
+  "synthetic_unit_tests": {
+    "passed": 41,
+    "failed": 0,
+    "command": "python -m pytest tests -q -p no:cacheprovider --basetemp NEW_WRITABLE_TEST_DIRECTORY",
+    "fixtures": "synthetic constants only; no scientific dataset fixtures"
+  },
+  "external_replay": {
+    "status": "PASS",
+    "operation_checks": 10,
+    "baseline_prediction_files_exact": 6,
+    "baseline_evaluation_tables_exact": 14,
+    "finite_prediction_files_exact": 30,
+    "scientific_kernel_csv_values_exact": true,
+    "csv_representation": "Original storage round-trip normalization; no widened numeric comparison tolerance",
+    "inputs_and_frozen_code_unchanged": true,
+    "data_or_scientific_output_tables_copied_into_public_tree": false
+  },
+  "installation": {
+    "status": "PASS",
+    "wheel_built": true,
+    "target_installed": true,
+    "installed_module_location_verified": true,
+    "version_cli_pass": true,
+    "help_cli_pass": true,
+    "wheel_contains_no_measurement_or_document_files": true,
+    "dependencies_reused_from_verified_environment": true,
+    "dependency_installation_scope": "offline --no-deps --target installation; not a clean network dependency installation",
+    "external_paths_excluded": true
+  },
+  "formatting": {
+    "status": "PASS",
+    "formatter": "Black",
+    "version": "24.10.0",
+    "execution": "format_file_contents API, explicit src/tests/tools paths",
+    "python_files_checked": 27,
+    "unformatted_files_remaining": 0
+  },
+  "verified_runtime": {
+    "interpreter": "Anaconda Python",
+    "python": "3.13.5",
+    "numpy": "2.4.3",
+    "pandas": "2.3.3",
+    "jsonschema": "4.26.0",
+    "pytest": "8.3.4",
+    "setuptools": "80.9.0",
+    "black": "24.10.0"
+  },
+  "clean_network_dependency_installation_claimed": false,
+  "machine_paths_in_metadata": false,
+  "provenance": "AI-assisted refactoring disclosed; original scientific sources credited; no SC3 or AEM author program redistributed",
+  "excluded_from_public_payload": [
+    "real data and referee records",
+    "papers and full text",
+    "figures and manuscripts",
+    ".qa* temporary directories",
+    "__pycache__ and *.pyc",
+    ".pytest_cache",
+    "*.egg-info",
+    "build and dist caches"
+  ],
+  "generic_safety_changes": [
+    "unique finite interpretation identifiers",
+    "runtime mode validation",
+    "integer Wilson counts",
+    "resolved primary provenance role distinct from efficacy reference",
+    "prediction input SHA in evaluation manifest",
+    "no cached observed gate bypass"
+  ],
+  "frozen_valid_scientific_outputs_changed": false
+}
